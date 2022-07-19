@@ -14,6 +14,7 @@
     --hover-focus-color: #2196F3;
     --footer-logo-color: #ffffff;
     --footer-address-color: rgba(255, 255, 255, 0.6);
+    --team-item: white; 
 }
 
 
@@ -218,6 +219,10 @@ background-color: #F5F4FA;
     
 }
 
+.team-item {
+    background-color: var(--team-item);
+}
+
 .footer {
     background-color: #2F303A;;
 }
@@ -238,7 +243,7 @@ background-color: #F5F4FA;
 .footer-address-link {
 
     color: var(--footer-address-color);
-        
+    font-style: normal;    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -260,7 +265,6 @@ background-color: #F5F4FA;
     color: var(--btn-text-first-color);
     
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
